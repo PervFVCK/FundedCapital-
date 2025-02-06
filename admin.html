@@ -14,16 +14,23 @@
     <main>
         <section class="user-management">
             <h2>Manage Investor Accounts</h2>
-            <ul id="userList">
-                <!-- Dynamically filled with user data -->
-            </ul>
+            <div class="user-list">
+                <!-- Here you would dynamically list users from your data -->
+                <p><strong>User:</strong> John Doe</p>
+                <p><strong>Balance:</strong> $10,000</p>
+                <p><strong>Status:</strong> Active</p>
+                <button class="suspend-btn">Suspend Account</button>
+            </div>
         </section>
 
-        <section class="withdrawals">
-            <h2>Approve Withdrawals</h2>
-            <ul id="withdrawalList">
-                <!-- Withdrawal requests will go here -->
-            </ul>
+        <section class="withdrawal-approval">
+            <h2>Pending Withdrawals</h2>
+            <div class="withdrawal-request">
+                <p><strong>Request from:</strong> John Doe</p>
+                <p><strong>Amount:</strong> $500</p>
+                <button class="approve-btn">Approve</button>
+                <button class="deny-btn">Deny</button>
+            </div>
         </section>
     </main>
 
