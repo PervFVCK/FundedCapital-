@@ -34,13 +34,14 @@
     </div>
 </section>
         <section id="withdrawals">
-            <h2>Withdraw Funds</h2>
-            <p>Request a withdrawal below.</p>
-            <form action="#">
-                <label for="amount">Amount to Withdraw:</label>
-                <input type="text" id="amount" name="amount" placeholder="Enter amount">
-                <input type="submit" value="Request Withdrawal">
-            </form>
+    <h2>Withdraw Funds</h2>
+    <form id="withdrawal-form">
+        <label for="amount">Amount to Withdraw:</label>
+        <input type="number" id="amount" name="amount" placeholder="Enter amount" required>
+        <input type="submit" value="Request Withdrawal">
+    </form>
+    <div id="withdrawal-response"></div>  <!-- Response message will be shown here -->
+        </section>
         </section>
     </main>
 
