@@ -3,34 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FundedCapital - Home</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>FundedCapital - Prop Firm</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <header>
         <h1>Welcome to FundedCapital</h1>
         <nav>
             <ul>
-                <li><a href="investor/dashboard.html">Investor Dashboard</a></li>
-                <li><a href="admin/dashboard.html">Admin Dashboard</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#investor-dashboard">Investor Dashboard</a></li>
+                <li><a href="#admin-dashboard">Admin Dashboard</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <section class="intro">
-            <h2>Your Trusted Prop Firm</h2>
-            <p>Invest in your future with FundedCapital and see the growth!</p>
-            <p>Choose your role to proceed:</p>
-            <a href="investor/dashboard.html" class="button">Investor Login</a>
-            <a href="admin/dashboard.html" class="button">Admin Login</a>
+        <section id="about">
+            <h2>About FundedCapital</h2>
+            <p>FundedCapital is a leading prop firm offering investors a reliable and transparent platform for trading and profit-sharing.</p>
+        </section>
+
+        <section id="investor-dashboard">
+            <h2>Investor Dashboard</h2>
+            <p>Access your trading performance, request withdrawals, and manage your account.</p>
+            <a href="investor/dashboard.html" class="cta-btn">Go to Investor Dashboard</a>
+        </section>
+
+        <section id="admin-dashboard">
+            <h2>Admin Dashboard</h2>
+            <p>Manage investor accounts, approve withdrawals, and oversee all activities in the firm.</p>
+            <a href="admin/dashboard.html" class="cta-btn">Go to Admin Dashboard</a>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2025 FundedCapital</p>
+        <p>&copy; 2025 FundedCapital | All Rights Reserved</p>
     </footer>
 
-    <script src="scripts.js"></script>
+    <script src="js/scripts.js"></script>
 </body>
 </html>
