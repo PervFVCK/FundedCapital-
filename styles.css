@@ -52,3 +52,17 @@ footer {
     background-color: #333;
     color: white;
 }
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+    header h1 {
+        font-size: 20px;
+    }
+    main {
+        padding: 10px;
+    }
+    .account-info p, .activity-log ul li {
+        font-size: 14px;
+    }
+}
