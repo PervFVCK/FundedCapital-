@@ -20,15 +20,27 @@
 
     <main>
         <section id="manage-investors">
-            <h2>Manage Investors</h2>
-            <p>Here you can view and manage investor accounts.</p>
-            <!-- You can later add a table with investor details or links to view specific accounts -->
+    <h2>Manage Investors</h2>
+    <table id="investor-table">
+        <thead>
+            <tr>
+                <th>Investor ID</th>
+                <th>Username</th>
+                <th>Balance</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Investor list will be dynamically inserted here -->
+        </tbody>
+    </table>
         </section>
 
         <section id="approve-withdrawals">
-            <h2>Approve Withdrawals</h2>
-            <p>Manage withdrawal requests here.</p>
-            <!-- Add a list or form for approving withdrawals -->
+    <h2>Approve Withdrawals</h2>
+    <ul id="withdrawal-list">
+        <!-- Withdrawal requests will be listed here -->
+    </ul>
         </section>
     </main>
 
